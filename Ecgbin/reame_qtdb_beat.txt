@@ -1,0 +1,5 @@
+从qtdb中，提取了3528个heartbeat的心电图，标记了PQRST的位置。
+
+分别是  Ponset Ppos Poffset  QRSonset QRSpos QRSoffset Tonset Tpos Toffset
+
+该数据库可以用于评估PQRS波的检测精度，QT间隔的提取精度

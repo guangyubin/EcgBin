@@ -1,0 +1,17 @@
+Mes.VentricularRate = [];
+Mes.AtrialRate = [];
+Mes.PRInterval = [];
+Mes.QRSDuration = [];
+Mes.QTInterval = [];
+Mes.QTCorrected = [];
+Mes.RAxis = [];
+Mes.TAxis = [];
+Mes.QRSCount = [];
+Mes.QOnset = [];
+Mes.QOffset = [];
+Mes.POnset = [];
+Mes.POffset = [];
+Mes.TOffset = [];
+Mes.ECGSampleBase = [];
+Mes.ECGSampleExponent = [];
+Mes.QTcFrederica = [];

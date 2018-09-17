@@ -1,0 +1,11 @@
+AUTHORS:
+
+Guangyu Bin <guangyubin@bjut.edu.cn>  
+Minggang Shao <smg@263.net>
+Jiao Huang <897457012@qq.com>   
+Guanghong Bin <binguanghong@aliyun.com>
+
+College of Life Science and Bioengineering, 
+Beijing University of Technology, 
+Beijing 100124,
+China
