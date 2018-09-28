@@ -62,7 +62,7 @@ grid on
 grid minor
 set(gca,'GridColor',[1 0 0 ],'MinorGridColor',[0.8 0 0],'GridAlpha',0.8,'MinorGridAlpha',0.6);
 
-drt = {'D:\MGCDB\MITAFDB','D:\MGCDB\mitdb250\','D:\MGCDB\mitdb_pwave\','D:\MGCDB\ST\'};
+drt = {'D:\MGCDB\MITAFDB','D:\MGCDB\mitdb250\','D:\MGCDB\mitdb_pwave\','D:\MGCDB\ST250\'};
 m = length(drt);
 list = dir('D:\MGCDB\CAREB0');
 for ii = 1:length(list)
@@ -197,7 +197,10 @@ switch choice
         %         matmgc('file_analysis',fname,[fname '.qrs'],'mgc');
         clear matmgc
 %         matmgc('creat_qrs',fname);
+try
         movefile([fname '.xml']);
+catch
+end
         matmgc('creat_xml',fname);
         %         handles.ECG.AnnBeat = updata_qrs(fname);
         clear matmgc

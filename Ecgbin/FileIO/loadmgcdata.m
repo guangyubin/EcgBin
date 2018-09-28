@@ -22,9 +22,12 @@ end;
 
 if heasig.fmt(1) == 212
 
-    ecg=rdsign212([fname '.dat'],1,1,heasig.nsamp);
+    ecg=rdsign212([fname '.dat'],heasig.nsig,1,heasig.nsamp);
+%     ecg = ecg(:,1);
+    if heasig.gain(1)~=0
     ecg = ecg/heasig.gain(1);
     ecg= ecg - mean(ecg);
+    end
 end;
 if heasig.fmt(1) == 16
     fid = fopen([fname '.dat']);
